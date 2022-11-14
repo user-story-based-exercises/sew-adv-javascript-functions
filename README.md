@@ -4,7 +4,7 @@ SEW | ADV | JavaScript Functions
 *As a sales person I want to easily check, if a given EAN/GTIN code is valid, in order to spot mistakes faster.*
 
 ### Acceptance Criteria
-- A function named istEan(artNum), where artNum is the EAN/GTIN code, is available.
+- A function named isEan(artNum), where artNum is the EAN/GTIN code, is available.
 - The result is true, if the given EAN/GTIN code is valid, otherwise it is false.
 
 
