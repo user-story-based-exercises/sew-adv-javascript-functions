@@ -5,8 +5,7 @@ SEW | ADV | JavaScript Functions
 
 ### Acceptance Criteria
 - A function named isEan(artNum), where artNum is the EAN/GTIN code, is available.
-- The result is true, if the given EAN/GTIN code is valid, otherwise it is false.
-
+- The result is true, if the given EAN/GTIN code is valid (i.e. format and **checksum** is valid), otherwise it is false.
 
 ## User Story 2
 *As a security expert I want to see the strength of a password, so that I can be sure to use strong passwords.*
@@ -15,9 +14,9 @@ SEW | ADV | JavaScript Functions
 - A function named strength(password) is available.
 - The result of this function is a positive number.
 - Use several metrics to calculate the strength of a password, e.g.:
-- - the length of the password
-- - the number of different categories of characters (lower-, and upper-case, numbers, special chars, etc.)
-- - the more unpredictable the password is, the stronger it is
+  - the length of the password
+  - the number of different categories of characters (lower-, and upper-case, numbers, special chars, etc.)
+  - the more unpredictable the password is, the stronger it is
 
 
 ## User Story 3
@@ -27,9 +26,9 @@ SEW | ADV | JavaScript Functions
 - A function rot13(text) is available.
 - The given string is encrypted using the ROT13 method.
 - Upper- and lower-case are kept.
+- Letters and signs outside of the English alphabet are kept.
 - If the argument is no string, it needs to be converted into a string.
 - If the function is used twice on a string, it should produce the same string again.
-- Try to find different implementations
 
 
 ## User Story 4
@@ -50,8 +49,8 @@ SEW | ADV | JavaScript Functions
 - generate returns a new function, which then can be called with two numbers as parameters.
 - The given mathematic operation is performed on the two numbers.
 - Example:
-- - const mult = generate('*')
-- - console.log(mult(3, 4)) // the value is 12 printed on the console
+  - const mult = generate('*')
+  - console.log(mult(3, 4)) // the value is 12 printed on the console
 
     
 #### Links
