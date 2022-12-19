@@ -49,8 +49,8 @@ SEW | ADV | JavaScript Functions
 - generate returns a new function, which then can be called with two numbers as parameters.
 - The given mathematic operation is performed on the two numbers.
 - Example:
-- - const mult = generate('*')
-- - console.log(mult(3, 4)) // the value is 12 printed on the console
+  - const mult = generate('*')
+  - console.log(mult(3, 4)) // the value is 12 printed on the console
 
     
 #### Links
